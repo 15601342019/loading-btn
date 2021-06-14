@@ -1,0 +1,3 @@
+# LoadingContainer
+
+    拦截click事件，进行重新包装，但外部click事件调用执行的时候，LoadingContainer先改变内部state 的loading值为true，然后执行之拦截到的外部click事件，当外部click事件返回的Promise对象的状态变为 fulfilled 或者 rejected，就重置内部state的loading值为false
