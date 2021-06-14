@@ -2,7 +2,7 @@
 
     该组件主要用于防止用户频繁点击一个按钮，从而导致发送多个ajax请求
 
-    组件要求必须传入一个click事件，该事件执行返回一个Promise对象，事件执行组件进入loading状态，
+    组件要求必须传入一个click事件，该事件执行返回一个Promise对象，事件执行组件进入loading状态，   
     
     当Promise的状态变为 fulfilled 或者 rejected，此时组件loading消失恢复原来状态。
 
